@@ -1,0 +1,74 @@
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    height: 35vh;
+    
+}
+
+.row-container {
+    width: 100%;
+    display: flex;
+    
+}
+
+.achieve {
+    margin: 15px 40vw;
+}
+
+.image {
+    align-self: center;
+    gap: 35px;
+    margin: 5px;
+}
+
+.words {
+
+    width: 125px;
+    height: 125px;
+}
+
+li {
+    display: flex;
+    align-self: flex-end;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.action {
+    margin: 35px 200px;
+    background-color: #3882f6;
+}
+
+footer {
+display: flex;
+justify-content: center;
+align-self: stretch;
+color: white;
+    background-color: #1f2937;
+}
