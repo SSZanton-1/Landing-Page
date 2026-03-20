@@ -9,17 +9,33 @@ body {
       background-color: #1f2937;
     color: #f9faf8;
     width: 100vw;
-    height: 25vh;
+    height: 22vh;
+}
+
+.site-header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20px;
+    gap: 15px;
+    margin-left: 80px;
 }
 .hero {
   
     display: flex;
     align-self: space-between;
     flex-wrap: wrap;
+    gap: 100px;
+    padding-left:350px;
 }
 
+.button{
+    background:#3882f6;
+    color: white;
+    border-color:white;
+    max-height: 30px;
+}
 .text {
-    max-width: 400px;
+    max-width: 500px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -49,12 +65,18 @@ margin: 0px;
     height: 125px;
 }
 
+ul {
+    display: flex;
+     gap:15px;
+    margin-left: 70%;
+}
 li {
     list-style-type: none;
     color: #f9faf8;
+   
 }
 a {
-
+display: flex;
     text-decoration: none;
 }
 
@@ -69,8 +91,8 @@ a {
 .action {
 margin-top: 25px;
 margin-bottom: 25px;
-padding-left: 25px;
-padding-right: 25px;
+padding-left: 155px;
+padding-right: 155px;
     background-color: #3882f6;
 }
 
@@ -78,6 +100,7 @@ footer {
 display: flex;
 justify-content: center;
 align-self: stretch;
+flex:auto;
 color: white;
     background-color: #1f2937;
 }
