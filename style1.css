@@ -34,6 +34,12 @@ body {
     border-color:white;
     max-height: 30px;
 }
+.top-button{
+    border-color:#3882f6;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .text {
     max-width: 500px;
     display: flex;
@@ -46,6 +52,9 @@ margin: 0px;
 
 .achieve {
     align-self: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: larger;
 }
 
 .row-container {
@@ -53,16 +62,19 @@ margin: 0px;
     flex-wrap: wrap;
     align-self: center;
     justify-content: center;
-    max-width: 750px;
-    gap: 25px;
+    max-width: 1050px;
+    column-gap: 100px;
+    row-gap: 15px;
 }
 
 .words {
-    border: 2px solid #1f2937;
     border-radius: 15px;
-    padding:5px;
-    width: 138px;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    width: 137px;
     height: 125px;
+font-size:large;
 }
 
 ul {
@@ -86,14 +98,30 @@ display: flex;
     width: 100%;
 }
 .quote {text-align: center;
-   
+   padding-top:20px;
 } 
 .action {
-margin-top: 25px;
-margin-bottom: 25px;
-padding-left: 155px;
-padding-right: 155px;
+display:flex;
+margin-top: 18px;
+margin-bottom: 18px;
+padding-left: 75px;
+padding-right: 250px;
+padding-bottom: 15px;
+color:#f9faf8; 
     background-color: #3882f6;
+}
+
+.text-left {
+    align-self: center;
+padding-right: 275px;
+flex-wrap: nowrap;
+}
+
+.button-right {align-self: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 15px;
+    border-radius: 3px;
 }
 
 footer {
