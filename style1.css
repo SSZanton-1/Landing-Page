@@ -11,7 +11,10 @@ body {
     width: 100vw;
     height: 22vh;
 }
-
+.top-text {
+    margin-bottom: 0px;
+    margin-block-end: 0;
+}
 .site-header {
     display: flex;
     flex-wrap: wrap;
@@ -22,10 +25,7 @@ body {
 .hero {
   
     display: flex;
-    align-self: space-between;
-    flex-wrap: wrap;
-    gap: 100px;
-    padding-left:350px;
+    justify-content: center;
 }
 
 .button{
@@ -44,7 +44,9 @@ body {
     max-width: 500px;
     display: flex;
     flex-wrap: wrap;
+    margin:0;
 }
+
 .information {
 margin: 0px;
     height: 39vh;
